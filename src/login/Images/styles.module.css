@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  & .store {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 570px;
+  }
+}
+
+
+

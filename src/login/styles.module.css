@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+
+  & .welcome {
+    width: 50%;
+    height: 650px;
+  }
+  & .login {
+    width: 50%;
+    height: 650px;
+  }
+}
